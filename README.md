@@ -5,13 +5,13 @@
 可以直接覆盖原文件
 
 ``` shell
-> python type_annotate.py -i /home/shun/Documents/Projects/paddle/megemini/Paddle/python/paddle/tensor/math.py
+> python args_typing.py -i /home/shun/Documents/Projects/paddle/megemini/Paddle/python/paddle/tensor/math.py
 ```
 
 或者手动设置输出文件
 
 ``` shell
-> python type_annotate.py -i /home/shun/Documents/Projects/paddle/megemini/Paddle/python/paddle/tensor/math.py -o ./tmp.py
+> python args_typing.py -i /home/shun/Documents/Projects/paddle/megemini/Paddle/python/paddle/tensor/math.py -o ./tmp.py
 ```
 
 ## 注意
